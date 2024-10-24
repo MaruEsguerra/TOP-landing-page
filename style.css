@@ -69,7 +69,6 @@ a {
 .text button {
     background-color: #ccd5ae;
     padding: 8px;
-    border: #ccd5ae;
     color: white;
     text-align: center;
 }
@@ -136,6 +135,70 @@ h1,
 .description,
 .main p {
     color: brown;
+}
+
+.interjection {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    background-color: #b7b7a4;
+    padding: 0;
+    margin: 0;
+    gap: 52px;
+}
+
+.text-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.interjection img {
+    max-width: 30%;
+    object-fit: contain;
+}
+
+.interjection p {
+    font-size: 36px;
+    font-style: italic;
+    color: white;
+    text-align: center;
+}
+
+.subscribe {
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 36px 160px;
+}
+
+.subscribe-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #a5a58d;
+    padding: 48px;
+    gap: 36px;
+    border-radius: 15px;
+}
+
+.sub-text-container {
+    flex: 1;
+    flex-direction: column;
+}
+
+.sub-text-container p {
+    color: white;
+}
+
+.subscribe-box button {
+    background-color: #a5a58d;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .footer {
